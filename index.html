@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cercaLavori</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <div class="titolo">
+        <h1>Ricerca i lavori</h1>
+    </div>
+    <div class="container">
+        <div class="labelSearch">    
+            <label for="jobTitle">Tipo di lavoro:</label>
+            <input type="text" id="jobTitle" placeholder="Inserisci il tipo di lavoro">
+        </div>
+        <div class="labelSearch">
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Inserisci la location">
+        </div>
+        <button id="searchButton">Cerca</button>
+        <button id="resetButton">Reset</button>
+    
+        <h3 id="resultCount"></h3>
+        <h2>Risultati:</h2>
+        <ul id="results"></ul>
+    </div>
+    
+
+
+    <script src="java7.js"></script>
+</body>
+</html>
